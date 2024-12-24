@@ -1,0 +1,6 @@
+pyannote.audio
+cffi
+ffmpeg-python
+openai-whisper
+pandas
+matplotlib
