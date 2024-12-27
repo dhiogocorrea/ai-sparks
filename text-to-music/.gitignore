@@ -4,6 +4,7 @@
 *.wav
 *.mp3
 *.midi
+*.sf2
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
