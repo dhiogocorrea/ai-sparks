@@ -45,14 +45,14 @@ def run_agent(transcriptions: List[SpeakerOutput], language: str):
 def get_meeting(
         video_path: str,
         language: str = 'portuguese',
-        regen_knowledge: bool = False
+        regenerate_knowledge: bool = False
     ) -> Meeting:
     filename = os.path.basename(video_path)
 
     if os.path.exists(f'meetings/{filename}.pkl'):
         meeting = Meeting.load(f'meetings/{filename}.pkl')
         
-        if regen_knowledge is True:
+        if regenerate_knowledge is True:
             response = run_agent(
                 transcriptions=meeting.speakers_dialog,
                 language=language
