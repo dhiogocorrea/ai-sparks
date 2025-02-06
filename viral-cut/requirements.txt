@@ -1,4 +1,0 @@
-ffmpeg-python
-openai-whisper
-pandas
-matplotlib
