@@ -23,7 +23,6 @@ class ViralCutAgent:
         - Funny, controversial, emotional, or inspiring segments
         - Catchy phrases, intriguing questions, revelations
         - Clips duration is at greater than 60 seconds and lower than 300 seconds
-        - Do not create overlayed clips
         - Create AT LEAST (<DURATION OF VIDEO> / 300 seconds) clips. For example: for a 3600 seconds video, AT LEAST 12 clips.
 
         Your output must be a JSON-structured list, where each item contains:
